@@ -1,0 +1,8 @@
+main: me.Latestion.Totem.Main
+name: CustomTotems
+author: Latestion
+api-version: 1.13
+version: 1.0
+
+commands:
+  totems:

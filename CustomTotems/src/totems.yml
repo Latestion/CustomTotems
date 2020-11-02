@@ -1,0 +1,108 @@
+Belt:
+  Material: TNT
+  Displayname: "&6Totem Belt"
+  Lore:
+    - "&l&cTotem Belt"
+  Model: 123456
+
+Time:
+  Displayname: "&6Totem Of Time"
+  Model: 123456
+  Lore:
+    - "&l&cAbilities:"
+    - "&8Astral Cycling: Right click to change time of day."
+    - "&8Time Freeze: Shift+left click to freeze time in X radius around you for Y amount of time."
+  Astral-Cooldown: 10 # In secs
+  Freeze-Cooldown: 10 # In Secs
+  Freeze-Duration: 10 # In Secs
+  Freeze-Radius: 10 # In radius
+  Astral-Bossbar-Color: RED
+  Freeze-Bossbar-Color: BLUE
+  Astral-Bossbar-Text: "&6Astral Cooldown"
+  Freeze-Bossbar-Text: "&6Freeze Cooldown"
+
+Void:
+  Displayname: "&6Totem Of Void"
+  Model: 123456
+  Lore:
+    - "&l&cAbilities:"
+    - "&8Test."
+    - "&8Test 2."
+  Shadow-Sneak-Cooldown: 10 # In seconds
+  Shadow-Sneak-Bossbar-Color: BLUE
+  Shadow-Sneak-Bossbar-Text: "&6Shadow Sneak Cooldown"
+  Warp-Cooldown: 10 # In Secodns
+  Warp-Distance: 5 # Blocks
+  Warp-Bossbar-Color: RED
+  Warp-Bossbar-Text: "&6Warp Cooldown"
+  Group-Portal-Time: 10 # In seconds
+  Solo-Portal-Time: 10 # In seconds.. Removes the portal if not used
+  
+Storms:
+  Displayname: "&6Totem Of Storms"
+  Model: 123456
+  Lore:
+    - "&l&cAbilities:"
+    - "&8Right click to cycle weather between rain, thunder and clear."
+    - "&8Lightning Strike: Left click to strike lightning where you’re looking."
+  Weather-Change-Cooldown: 10 # In secs
+  Lightning-Strike-Cooldown: 10 # In secs
+  Weather-Change-Duration: 10 # In Secs
+  Lightning-Strike-Max-Distance: 10 # In Blocks
+  Weather-Bossbar-Color: RED
+  Strike-Bossbar-Color: BLUE
+  Weather-Bossbar-Text: "&6Weather Change Cooldown"
+  Strike-Bossbar-Text: "&6Lightning Strike Cooldown"
+
+Unliving:
+  Displayname: "&6Totem Of Unliving"
+  Model: 123456
+  Lore:
+    - "&l&cAbilities:"
+    - "&8Test."
+    - "&8Test 2."
+  Undead-Spawn-Cooldown: 10
+  Bossbar-Color: BLUE
+  Bossbar-Text: "&6Unliving Cooldown"
+
+Spirit:
+  Displayname: "&6Totem Of Spirit"
+  Model: 123456
+  Lore:
+    - "&l&cAbilities:"
+    - "&8Enter Spirit World: Enter the spirit world."
+    - "&8Afterlife: Keep all items and XP on death. ."
+  Spirit-World-Name: Spirit
+  Spirit-World-Switch-Cooldown: 10 # In secs  
+  World-Switch-Bossbar-Color: RED
+  World-Switch-Bossbar-Text: "&6Lightning Strike Cooldown"
+
+Earth:
+  Displayname: "&6Totem Of Earth"
+  Model: 123456
+  Lore:
+    - "&l&cAbilities:"
+    - "&8Test."
+    - "&8Test 2."
+  Wall:
+    Material: DIRT
+    Duration: 10 # In seconds
+    Width: 3
+    Height: 3
+    Cooldown: 10 # In Seconds
+    Bar-Color: RED
+    Bar-Text: "&6Wall Cooldown"
+  Dome:
+    Material: DIRT
+    Duration: 10 # In seconds
+    Radius: 5
+    Cooldown: 10 # In Seconds
+    Bar-Color: BLUE
+    Bar-Text: "&6Dome Cooldown"
+  Blast:
+    Material: DIRT
+    Damage: 10 # Hearts
+    Cooldown: 10 # In Seconds
+    Bar-Color: BLUE
+    Bar-Text: "&6Blast Cooldown"
+    
